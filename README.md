@@ -231,6 +231,9 @@ It will open the Web console in your browser and reuse your existing session if 
 `clever login` tries to open a browser through `xdg-open` on GNU/Linux systems (and in bash for windows).
 Make sure you have `xdg-utils` available as well as a default browser set, or you can copy and paste the URL displayed in the console.
 
+For an headless usage, `clever login` accept the `--token` and `--secret` parameters. Those are displayed into the webapage opened after 
+a successful `clever login`. 
+
 ### Create an application
 
 ```sh
